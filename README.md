@@ -17,10 +17,16 @@ After creating the three output arrays: tickerVolumes, tickerStartingPrices, and
 
 ![Image](VBA_Challenge_Macro.png?raw=true)
 
-##Differences with the first Code
+### Differences in Time Execution
 In "All Stocks Analysis Refactored", Goal was to refactor the code to increase the efficiency of the original code.
 With the help of setting timer, it shows how much time it required to run the process or code.
 
 ![Image](VBA_Challenge_FirstResults.png?raw=true)
 ![Image](VBA_Challenge_Results2017Time.png?raw=true)
 ![Image](VBA_Challenge_Results2018Time.png?raw=true)
+
+###Results of the Stock Development in 2017 and 2018
+Comparing the 2017 and the 2018 stocks, the difference in the total daily volume between the two years that resulted in less than a $100,000,000 in increased volume was not enough to generate a positive 2018 return percentage. The tickers ENPH and RUN had would have been considered good investments due to the positive returns in 2018, and both of the tickers had increases greater than $200,000,000 over the 2017 total daily volumes
+
+![Image](VBA_Challenge_Results2017.png?raw=true)
+![Image](VBA_Challenge_Results2018.png?raw=true)
