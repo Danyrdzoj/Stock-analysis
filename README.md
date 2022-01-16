@@ -30,3 +30,14 @@ Comparing the 2017 and the 2018 stocks, the difference in the total daily volume
 
 ![Image](VBA_Challenge_Results2017.png?raw=true)
 ![Image](VBA_Chellenge_Results2018.png?raw=true)
+
+### Differences in the Code
+The original code contained a nested for loop. Included in that outer loop, it also output the data for the current data, which resulted in a significant number of iterations.
+
+## Conclusions
+### Advantages
+Refactoring can optimize the code efficiency like we have seen in the challenge, also it can help figure out and debug the VBA code. In refactoring, duplicated subroutines, unnecessary loops, redundant statements or simply a faulty code can be removed and debugged. Another advantage when refactoring codes is that looking at the code from a fresh perspective might provide a chance to improve the code.
+### Disadvantages
+Different programers have different approaches to write codes, and programmers have different logics sometimes this requires testing of the different approaches taken to determine which code is better which can consume effort and time. Refactoring an existing code might possibly introduce other bugs into the code and results in further issues. It can sometimes be challenging to determine weather to start a new code or refactor and existing one.
+### 2. How do these pros and cons apply to refactoring the original VBA script?
+We have seen that the refactored code reduced the number of loop required thus decreased the processing memory needed for processing the stocks data. This optimized the VBA code which can be observed as the runtime between the original and refactored code significantly decreased. To refactor the VBA code testing must be done to determine if the efficiency has improved or not.
