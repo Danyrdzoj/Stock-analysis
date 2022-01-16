@@ -12,6 +12,15 @@ We are analyzing the yearly stock data to compare the stock performance between 
 For this second challenge, we’ll edit, or refactor, the Stock Market Dataset with VBA solution code to loop through all the data one time in order to collect an entire dataser. Then, we’ll determine whether refactoring your code successfully made the VBA script run faster. Finally, we just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read.
 
 ## Results of the Project 
-
+### Creating Arrays 
+After creating the three output arrays: tickerVolumes, tickerStartingPrices, and tickerEndingPrices, the tickerIndex was used to access the stock ticker indices. For this a loop was created to initialize the tickerVolumes to zero and if the following did not match to the before then we increased the tickerIndex. This loop also loops over all the rows in the spreadsheet.
 
 ![Image](VBA_Challenge_Macro.png?raw=true)
+
+##Differences with the first Code
+In "All Stocks Analysis Refactored", Goal was to refactor the code to increase the efficiency of the original code.
+With the help of setting timer, it shows how much time it required to run the process or code.
+
+![Image](VBA_Challenge_FirstResults.png?raw=true)
+![Image](VBA_Challenge_Results2017Time.png?raw=true)
+![Image](VBA_Challenge_Results2018Time.png?raw=true)
